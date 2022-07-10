@@ -11,7 +11,6 @@ plat.mk
 include/commit_info.h
 .module.mk
 *.elf
-*.lds
 .module.common.mk
 *.swp
 drivers/dram/sun8iw18p1/libchipid
