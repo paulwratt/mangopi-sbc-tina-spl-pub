@@ -1,6 +1,5 @@
-
 #
-#config file for sun8iw20
+#config file for sun20iw1
 #
 FILE_EXIST=$(shell if [ -f $(TOPDIR)/board/$(PLATFORM)/common.mk ]; then echo yes; else echo no; fi;)
 ifeq (x$(FILE_EXIST),xyes)
@@ -13,5 +12,4 @@ MODULE=nand
 CFG_SUNXI_NAND =y
 CFG_SUNXI_SPINAND =y
 CFG_SUNXI_DMA =y
-
 
