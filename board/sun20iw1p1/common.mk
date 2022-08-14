@@ -2,7 +2,7 @@
 #
 #config file for sun20iw1
 #
-SUPPORT_BOARD=f133
+SUPPORT_BOARD=f133 d1
 ARCH=riscv
 CPU=riscv64
 PLATFORM = sun20iw1p1
